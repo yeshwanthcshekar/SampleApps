@@ -1,4 +1,5 @@
-PhotoList App
+# PhotoList App
+
 A simple Android application that displays a grid of photos and allows you to view each photo in a detail screen with pinch-to-zoom and double-tap-to-zoom support. Built with Jetpack Compose, Material3, and Coil.
 
 Features
@@ -29,6 +30,7 @@ Building and Running
 2. Select a run configuration (an emulator or connected device).
 3. Click the Run button or use Shift + F10 (Windows) / Control + R (macOS).
 
+```
 app
 ├── manifests
 │   └── AndroidManifest.xml
@@ -62,7 +64,7 @@ app
 │
 ├── test/ (unit tests)
 └── androidTest/ (instrumented tests)
-
+```
 
 Key Files
 * MainActivity.kt: Entry point of the app.
